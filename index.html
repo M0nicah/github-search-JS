@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Search App</title>
+    <link href="./style.css" rel="stylesheet"/>
+    <link href="./dist/output.css" rel="stylesheet"/>
+</head>
+<body class="bg-san-juan-800">
+    <div>
+        <h2 class="justify-center items-center mx-auto flex text-hoki-500 font-bold text-6xl mt-10">GitHub Search App</h2>
+        <p class="items-center justify-center text-center mt-5 mx-auto flex text-hoki-600 text-4xl font-light">Enter a Github Username below to view full details in a second!<br> Application implemented using Github API.</p>
+    </div>
+    <div class="mt-10 justify-center items-center mx-auto flex w-10/12">
+        <form id="myForm">
+            <input class="w-96 p-3 rounded-l-lg" type="text" autocomplete="off" id="username" placeholder="Enter Username" required >
+            <button class="bg-copper-rose-500 p-3 w-48 text-white rounded-r-lg" id="btn">Search</button>
+        </form>
+    </div>
+    <div class="text-copper-rose-600  rounded-2xl mb-6  text-center justify-center mx-auto items-center mt-5 w-96 h-96" id="result"></div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
